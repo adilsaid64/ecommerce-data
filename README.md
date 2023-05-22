@@ -184,6 +184,30 @@ There seems to be a strong positive correlation between Yearly Amount Spent and 
 ![png](output_16_1.png)
 
 
+**exploring types of relationships across the entire data set using a pairplot**
+
+![png](output_18_1.png)
+
+Length of Membership and Time on App seem to be the most correlated feture with Yearly Amount Spent.
+
+
+## Model Fitting
+
+The data was split into training and testing, and a linear regression model was fit using SKlearn. The features used where Avgerage Session Length, Time on App, Time on Website, Length of Membership.
+
+These are the coefficients:
+
+| Feature                | Coefficient |
+|------------------------|-------------|
+| Average Session Length | 25.982      |
+| Time on App            | 38.590      |
+| Time on Website        | 0.190       |
+| Length of Membership   | 61.279      |
+
+
+
+
+
 
 
 
