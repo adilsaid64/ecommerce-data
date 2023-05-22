@@ -195,7 +195,7 @@ Length of Membership and Time on App seem to be the most correlated feture with 
 
 ## Model Fitting
 
-The data was split into training and testing, and a linear regression model was fit using SKlearn. The features used where Avgerage Session Length, Time on App, Time on Website, Length of Membership.
+The data was split into training and testing, and a linear regression model was fit using SKlearn. The features used where Average Session Length, Time on App, Time on Website, Length of Membership.
 
 These are the coefficients:
 
