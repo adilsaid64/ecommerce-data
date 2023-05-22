@@ -166,4 +166,24 @@ The company is trying to decide whether to focus their efforts on their mobile a
 </table>
 
 
+**Comparing the Time on Website and Yearly Amount Spent**
+
+![png](output_10_1.png)
+
+There doesn't appear to be any relationship between the Yearly Amount Spent and Time on the Website. Both distributions seem to have a bell shape.
+
+
+**Comparing Time on App with Yearly Amount Spent**
+
+![png](output_13_1.png)
+
+There seems to be a strong positive correlation between Yearly Amount Spent and Time on App.
+
+**Using a jointplot to create a 2D hex bin plot comparing Time on App and Length of Membership.**
+
+![png](output_16_1.png)
+
+
+
+
 
