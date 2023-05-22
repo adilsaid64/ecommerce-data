@@ -205,6 +205,50 @@ These are the coefficients:
 | Length of Membership   | 61.279      |
 
 
+**A scatterplot of the real test values versus the predicted values**
+
+![png](output_40_1.png)
+
+Visually we can see that the model fits the data well. There is some noise.
+
+
+## Model Evaluation 
+
+**Evaluating the model performance by calculating the residual sum of squares and the explained variance score (R^2)**
+
+| Metric | Value |
+|--------|-------|
+| MAE    | 7.228 |
+| MSE    | 79.813 |
+| RMSE   | 8.934 |
+| R^2    | 0.989 |
+
+The model explains 99% of variance
+
+**Exploring residuals to make sure everything was okay with our data**
+
+**Histogram of the residuals**
+
+![png](output_48_1.png)
+
+We see the residuals are very close to a standard normal distribution. This distribution is what we want, as it's one of the assumptions of a linear regression model.
+
+
+## Conclusion
+
+Answering the the business question: Do you think the company should focus more on their mobile app or on their website?*
+
+You could look at it in different ways:
+
+1. Since the app is already working well,  it would be better to develop the website to make the experience of using the website as good as the experience of using the mobile app. Since the website needs the most work, the company should focus its efforts there.
+
+
+2. Develop the app more; since you know, the app is working well, keep improving the experience on the app. 
+
+It would be better to do more analysis and look at the business side to decide which approach to take. For example, look at the costs of each approach. Collecting more data or exploring different relationships would be best before deciding what to do. 
+
+
+
 
 
 
