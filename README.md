@@ -6,6 +6,8 @@ An Ecommerce company based in New York City that sells clothing online but they 
 
 The company is trying to decide whether to focus their efforts on their mobile app experience or their website.
 
+Note: This dataset was synthetic. Real data for projects like this is proprietary to companies and businesses. However, the problem itself is realistic, and this is my approach to solving it.
+
 ## EDA
 
 **Data Head**
