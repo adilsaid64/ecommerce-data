@@ -8,6 +8,7 @@ The company is trying to decide whether to focus their efforts on their mobile a
 
 ## EDA
 
+**Data Head**
 
 <table border="1" class="dataframe">
   <thead>
@@ -81,3 +82,88 @@ The company is trying to decide whether to focus their efforts on their mobile a
     </tr>
   </tbody>
 </table>
+
+
+**Summary Statistics**
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Avg. Session Length</th>
+      <th>Time on App</th>
+      <th>Time on Website</th>
+      <th>Length of Membership</th>
+      <th>Yearly Amount Spent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>500.000000</td>
+      <td>500.000000</td>
+      <td>500.000000</td>
+      <td>500.000000</td>
+      <td>500.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>33.053194</td>
+      <td>12.052488</td>
+      <td>37.060445</td>
+      <td>3.533462</td>
+      <td>499.314038</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.992563</td>
+      <td>0.994216</td>
+      <td>1.010489</td>
+      <td>0.999278</td>
+      <td>79.314782</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>29.532429</td>
+      <td>8.508152</td>
+      <td>33.913847</td>
+      <td>0.269901</td>
+      <td>256.670582</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>32.341822</td>
+      <td>11.388153</td>
+      <td>36.349257</td>
+      <td>2.930450</td>
+      <td>445.038277</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>33.082008</td>
+      <td>11.983231</td>
+      <td>37.069367</td>
+      <td>3.533975</td>
+      <td>498.887875</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>33.711985</td>
+      <td>12.753850</td>
+      <td>37.716432</td>
+      <td>4.126502</td>
+      <td>549.313828</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>36.139662</td>
+      <td>15.126994</td>
+      <td>40.005182</td>
+      <td>6.922689</td>
+      <td>765.518462</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
